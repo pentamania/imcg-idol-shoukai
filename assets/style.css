@@ -1,0 +1,154 @@
+/* normalize start */
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+/* normalize end */
+
+html {
+  font-size: 17px;
+  font-family: "游ゴシック", meirio, monospace, sans-serif;
+}
+
+body {
+  /*background: #E7F4F7;*/
+  /*color: #3af37b;*/
+  background-image: url("./background.png");
+  background-repeat: repeat;
+}
+
+#graph-container {
+  max-width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+/* 上段 */
+#recommended-idols li {
+  font-size: 0.85rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  margin: 4px;
+}
+
+/* 下段 */
+#recommending-idols {
+  /*margin-bottom: 20px;*/
+}
+#recommending-idols li {
+  font-size: 0.8rem;
+  padding: 4px;
+  width: 25%;
+  /*margin: 4px;*/
+}
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+  width: 100%;
+}
+
+.p-content {
+  min-height: 80px;
+  opacity: 0.7;
+  width: 100%;
+  padding: 1rem;
+}
+
+.p-tag {
+  border-radius: 2px;
+  padding: 0.4rem;
+}
+
+.p-topic {
+  font-size: 1.2rem;
+  margin: 0.3rem;
+}
+
+.u-fix-top {
+  position: fixed;
+  top: 0;
+}
+
+.u-fix-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-zi-top {
+  z-index: 3;
+}
+
+.u-zi-pit {
+  z-index: -1;
+}
+
+.t-gray {
+  background: transparent;
+  color: #7E7E7E;
+}
+
+.t-green {
+  background: #94ECAB;
+}
+
+.t-sky {
+  color: #25245f;
+  background: rgb(235,233,249);
+
+/*  background: rgb(235,233,249);
+  background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(186,191,224,1) 99%);
+  background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%,rgba(186,191,224,1) 99%);
+  background: linear-gradient(to bottom, rgba(235,233,249,1) 0%,rgba(186,191,224,1) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#babfe0',GradientType=0 );
+*/
+  /*border: 2px solid #4B6CE7;*/
+  /*border-width: 0 0 3px 0;*/
+  /*box-shadow: -1px 9px 5px -9px darkcyan;*/
+}
+
+.t-cute {
+  color: #F6E9F6;
+  background: #F84EE6;
+}
+.t-cool {
+  color: #E0E4F5;
+  background: #5C8FF8;
+}
+.t-passion {
+  color: #F4F5E0;
+  background: #e6a037;
+}
+.t-stress {
+  color: #141f3a;
+  font-weight: bold;
+}
+
+.u-quote {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 4px;
+}
+.u-quote:before {
+  content: "『";
+}
+.u-quote:after {
+  content: "』";
+}

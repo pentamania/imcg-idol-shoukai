@@ -1,0 +1,3 @@
+[submodule "imas_cg_hash"]
+	path = imas_cg_hash
+	url = https://github.com/pentamania/imas_cg_hash.git
